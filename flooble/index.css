@@ -1,0 +1,86 @@
+body{
+    background-color: #7171c2;
+}
+.mainsearch{
+    position: absolute;
+    top: 25%;
+    left: 25% ;
+    transform: (-50%,-50%);
+}
+h1{
+
+    color: #8a8aff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-shadow: 2px 0;
+    font-family:"Audiowide", sans-serif;
+    font-size: 8vw;
+
+}
+.search{
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    min-height: 6vh;
+    min-width: 50vw;
+    padding-left: 4%;
+
+}
+
+
+
+.submit{
+    position: absolute;
+    top: 100%;
+    left: 20% ;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: aliceblue;
+
+}
+.submit:hover{
+    background-color: rgb(194, 201, 206);
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+.submit2{
+    position: absolute;
+    top: 100%;
+    left: 55% ;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: aliceblue;
+ 
+}
+.submit2:hover{
+    background-color: rgb(194, 201, 206);
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+.submit:active {
+    background: color #8a8aff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .submit2:active {
+    background-color:#8a8aff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  a{
+      padding: 10px;
+      position: relative;
+      left: 0px;
+      display: flex;
+
+  }
